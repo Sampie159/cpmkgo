@@ -22,7 +22,7 @@ func SetupProject(language, projectName string) error {
 	}
 
 	err = createFiles(language, projectName, projectPath)
-	fmt.Println("Project created successfully!")
+	fmt.Println("Project", projectName, "created successfully!")
 
 	return err
 }
